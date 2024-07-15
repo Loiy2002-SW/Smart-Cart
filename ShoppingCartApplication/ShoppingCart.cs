@@ -24,6 +24,7 @@ namespace ShoppingCartApplication
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Item not found in cart.");
             }
         }
@@ -32,10 +33,11 @@ namespace ShoppingCartApplication
         {
             if (items.Count == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Your cart is empty.");
                 return;
             }
-
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("------- Shopping Cart -------");
             foreach (var item in items)
             {
