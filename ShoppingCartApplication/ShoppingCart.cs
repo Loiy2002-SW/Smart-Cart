@@ -4,7 +4,7 @@ namespace ShoppingCartApplication
 {
     public class ShoppingCart
     {
-        private List<Product> items;
+        public List<Product> items;
 
         public ShoppingCart()
         {
