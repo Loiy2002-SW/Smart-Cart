@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCartApplication\ShoppingCartApplication.csproj" />
+  </ItemGroup>
+
 </Project>
